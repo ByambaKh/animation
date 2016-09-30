@@ -1,0 +1,13 @@
+.minion {
+  width: 80px;
+  height: 80px;
+  background-image: url(https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xfa1/t39.1997-6/p240x240/851580_228084487340776_1254297971_n.png);
+}
+
+@keyframes dance {
+  100% { background-position: -240px 0; }
+}
+.minion{
+  animation: dance .6s steps(3) infinite;
+}
+
